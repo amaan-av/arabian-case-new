@@ -10,6 +10,8 @@ import {
   ArrowRight,
   Phone,
   Mail,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
 import { useState } from "react";
 import { SITE } from "@/lib/site";
@@ -128,9 +130,33 @@ function ProductPage() {
                 )}
                 style={gallery[activeImg]?.type === "product" ? { filter: "drop-shadow(0 10px 20px rgba(0,0,0,0.08))" } : undefined}
               />
+              {/* Made in Dubai badge */}
               <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-brand-navy backdrop-blur">
                 Made in Dubai
               </span>
+              {/* Prev / Next arrows */}
+              {gallery.length > 1 && (
+                <>
+                  <button
+                    onClick={() => setActiveImg((prev) => (prev === 0 ? gallery.length - 1 : prev - 1))}
+                    aria-label="Previous image"
+                    className="absolute left-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-white/85 shadow-md backdrop-blur transition hover:bg-white hover:scale-110 active:scale-95"
+                  >
+                    <ChevronLeft className="h-5 w-5 text-brand-navy" />
+                  </button>
+                  <button
+                    onClick={() => setActiveImg((prev) => (prev === gallery.length - 1 ? 0 : prev + 1))}
+                    aria-label="Next image"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-white/85 shadow-md backdrop-blur transition hover:bg-white hover:scale-110 active:scale-95"
+                  >
+                    <ChevronRight className="h-5 w-5 text-brand-navy" />
+                  </button>
+                  {/* Image counter */}
+                  <span className="absolute bottom-3 right-4 rounded-full bg-black/40 px-2.5 py-0.5 text-[11px] font-medium text-white backdrop-blur">
+                    {activeImg + 1} / {gallery.length}
+                  </span>
+                </>
+              )}
             </div>
             {/* Thumbnails — desktop grid, mobile swipe */}
             {gallery.length > 1 && (

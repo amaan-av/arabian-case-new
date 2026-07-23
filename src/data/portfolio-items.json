@@ -80,14 +80,6 @@
     "type": "product"
   },
   {
-    "id": "rack-case",
-    "category": "flight-cases",
-    "categoryLabel": "Flight Cases",
-    "large": "/portfolio/large/rack-case.webp",
-    "thumb": "/portfolio/thumbs/rack-case.webp",
-    "type": "product"
-  },
-  {
     "id": "screen-case-tv-2",
     "category": "flight-cases",
     "categoryLabel": "Flight Cases",
@@ -296,54 +288,6 @@
     "type": "project"
   },
   {
-    "id": "keyboard-case1",
-    "category": "flight-cases",
-    "categoryLabel": "Flight Cases",
-    "large": "/portfolio/large/keyboard-case1.webp",
-    "thumb": "/portfolio/thumbs/keyboard-case1.webp",
-    "type": "project"
-  },
-  {
-    "id": "mixer-case",
-    "category": "audio-equipment-cases",
-    "categoryLabel": "Audio Equipment Cases",
-    "large": "/portfolio/large/mixer-case.webp",
-    "thumb": "/portfolio/thumbs/mixer-case.webp",
-    "type": "project"
-  },
-  {
-    "id": "mixer-case-3",
-    "category": "audio-equipment-cases",
-    "categoryLabel": "Audio Equipment Cases",
-    "large": "/portfolio/large/mixer-case-3.webp",
-    "thumb": "/portfolio/thumbs/mixer-case-3.webp",
-    "type": "project"
-  },
-  {
-    "id": "mixer-case1",
-    "category": "audio-equipment-cases",
-    "categoryLabel": "Audio Equipment Cases",
-    "large": "/portfolio/large/mixer-case1.webp",
-    "thumb": "/portfolio/thumbs/mixer-case1.webp",
-    "type": "project"
-  },
-  {
-    "id": "mixer-case2",
-    "category": "audio-equipment-cases",
-    "categoryLabel": "Audio Equipment Cases",
-    "large": "/portfolio/large/mixer-case2.webp",
-    "thumb": "/portfolio/thumbs/mixer-case2.webp",
-    "type": "project"
-  },
-  {
-    "id": "mixer-case3",
-    "category": "audio-equipment-cases",
-    "categoryLabel": "Audio Equipment Cases",
-    "large": "/portfolio/large/mixer-case3.webp",
-    "thumb": "/portfolio/thumbs/mixer-case3.webp",
-    "type": "project"
-  },
-  {
     "id": "mixer-case4",
     "category": "audio-equipment-cases",
     "categoryLabel": "Audio Equipment Cases",
@@ -448,27 +392,11 @@
     "type": "project"
   },
   {
-    "id": "rack-case2",
-    "category": "flight-cases",
-    "categoryLabel": "Flight Cases",
-    "large": "/portfolio/large/rack-case2.webp",
-    "thumb": "/portfolio/thumbs/rack-case2.webp",
-    "type": "project"
-  },
-  {
     "id": "rack-case3",
     "category": "flight-cases",
     "categoryLabel": "Flight Cases",
     "large": "/portfolio/large/rack-case3.webp",
     "thumb": "/portfolio/thumbs/rack-case3.webp",
-    "type": "project"
-  },
-  {
-    "id": "rackcase4",
-    "category": "flight-cases",
-    "categoryLabel": "Flight Cases",
-    "large": "/portfolio/large/rackcase4.webp",
-    "thumb": "/portfolio/thumbs/rackcase4.webp",
     "type": "project"
   },
   {
@@ -485,14 +413,6 @@
     "categoryLabel": "Audio Equipment Cases",
     "large": "/portfolio/large/speaker-case.webp",
     "thumb": "/portfolio/thumbs/speaker-case.webp",
-    "type": "project"
-  },
-  {
-    "id": "speaker-case5",
-    "category": "audio-equipment-cases",
-    "categoryLabel": "Audio Equipment Cases",
-    "large": "/portfolio/large/speaker-case5.webp",
-    "thumb": "/portfolio/thumbs/speaker-case5.webp",
     "type": "project"
   },
   {
@@ -536,14 +456,6 @@
     "type": "project"
   },
   {
-    "id": "utility-case-2heic",
-    "category": "utility-covers",
-    "categoryLabel": "Utility Covers",
-    "large": "/portfolio/large/utility-case-2heic.webp",
-    "thumb": "/portfolio/thumbs/utility-case-2heic.webp",
-    "type": "project"
-  },
-  {
     "id": "wooden-craated",
     "category": "shipping-crates",
     "categoryLabel": "Shipping Crates",
@@ -557,6 +469,214 @@
     "categoryLabel": "Shipping Crates",
     "large": "/portfolio/large/wooden-crates.webp",
     "thumb": "/portfolio/thumbs/wooden-crates.webp",
+    "type": "project"
+  },
+  {
+    "id": "cable-trunk-j1",
+    "category": "flight-cases",
+    "categoryLabel": "Flight Cases",
+    "large": "/portfolio/large/Cable trunk.jpeg",
+    "thumb": "/portfolio/large/Cable trunk.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "utility-case-j1",
+    "category": "utility-covers",
+    "categoryLabel": "Utility Covers",
+    "large": "/portfolio/large/Utility case.jpeg",
+    "thumb": "/portfolio/large/Utility case.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "keyboard-case-j1",
+    "category": "flight-cases",
+    "categoryLabel": "Flight Cases",
+    "large": "/portfolio/large/keyboard case.jpeg",
+    "thumb": "/portfolio/large/keyboard case.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "keyboard-case-j2",
+    "category": "flight-cases",
+    "categoryLabel": "Flight Cases",
+    "large": "/portfolio/large/keyboard case 1.jpeg",
+    "thumb": "/portfolio/large/keyboard case 1.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "mixer-case-j1",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/mixer case.jpeg",
+    "thumb": "/portfolio/large/mixer case.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "mixer-case-j2",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/mixer case 1.jpeg",
+    "thumb": "/portfolio/large/mixer case 1.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "rack-case-j2",
+    "category": "flight-cases",
+    "categoryLabel": "Flight Cases",
+    "large": "/portfolio/large/rack case 2.jpeg",
+    "thumb": "/portfolio/large/rack case 2.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "rack-case-j3",
+    "category": "flight-cases",
+    "categoryLabel": "Flight Cases",
+    "large": "/portfolio/large/rack case 3.jpeg",
+    "thumb": "/portfolio/large/rack case 3.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "rack-case-j4",
+    "category": "flight-cases",
+    "categoryLabel": "Flight Cases",
+    "large": "/portfolio/large/rack case 4.jpeg",
+    "thumb": "/portfolio/large/rack case 4.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "rack-case-j5",
+    "category": "flight-cases",
+    "categoryLabel": "Flight Cases",
+    "large": "/portfolio/large/rack case 5.jpeg",
+    "thumb": "/portfolio/large/rack case 5.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "rack-case-j6",
+    "category": "flight-cases",
+    "categoryLabel": "Flight Cases",
+    "large": "/portfolio/large/rack case 6.jpeg",
+    "thumb": "/portfolio/large/rack case 6.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j1",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case.jpeg",
+    "thumb": "/portfolio/large/speaker case.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j2",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 1.jpeg",
+    "thumb": "/portfolio/large/speaker case 1.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j3",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 2.jpeg",
+    "thumb": "/portfolio/large/speaker case 2.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j4",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 3.jpeg",
+    "thumb": "/portfolio/large/speaker case 3.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j5",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 4.jpeg",
+    "thumb": "/portfolio/large/speaker case 4.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j6",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 5.jpeg",
+    "thumb": "/portfolio/large/speaker case 5.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j7",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 6.jpeg",
+    "thumb": "/portfolio/large/speaker case 6.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j8",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 7.jpeg",
+    "thumb": "/portfolio/large/speaker case 7.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j9",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 8.jpeg",
+    "thumb": "/portfolio/large/speaker case 8.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j10",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 9.jpeg",
+    "thumb": "/portfolio/large/speaker case 9.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "speaker-case-j11",
+    "category": "audio-equipment-cases",
+    "categoryLabel": "Audio Equipment Cases",
+    "large": "/portfolio/large/speaker case 10.jpeg",
+    "thumb": "/portfolio/large/speaker case 10.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "utility-case-j2",
+    "category": "utility-covers",
+    "categoryLabel": "Utility Covers",
+    "large": "/portfolio/large/utility case 1.jpeg",
+    "thumb": "/portfolio/large/utility case 1.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "utility-case-j3",
+    "category": "utility-covers",
+    "categoryLabel": "Utility Covers",
+    "large": "/portfolio/large/utility case 2.jpeg",
+    "thumb": "/portfolio/large/utility case 2.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "utility-case-j4",
+    "category": "utility-covers",
+    "categoryLabel": "Utility Covers",
+    "large": "/portfolio/large/utility case 3.jpeg",
+    "thumb": "/portfolio/large/utility case 3.jpeg",
+    "type": "project"
+  },
+  {
+    "id": "utility-case-j5",
+    "category": "utility-covers",
+    "categoryLabel": "Utility Covers",
+    "large": "/portfolio/large/utility case 4.jpeg",
+    "thumb": "/portfolio/large/utility case 4.jpeg",
     "type": "project"
   }
 ]

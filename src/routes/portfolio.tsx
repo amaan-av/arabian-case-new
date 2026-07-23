@@ -218,9 +218,14 @@ function Lightbox({
 function PortfolioPage() {
   const [filter, setFilter] = useState<string>("all");
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const [failedIds, setFailedIds] = useState<Set<string>>(new Set());
 
-  const filtered =
-    filter === "all" ? items : items.filter((i) => i.category === filter);
+  const markFailed = (id: string) =>
+    setFailedIds((prev) => new Set([...prev, id]));
+
+  const filtered = (
+    filter === "all" ? items : items.filter((i) => i.category === filter)
+  ).filter((i) => !failedIds.has(i.id));
 
   return (
     <div>
@@ -288,6 +293,7 @@ function PortfolioPage() {
                       src={item.thumb}
                       alt={item.title || "Custom Case Product"}
                       loading="lazy"
+                      onError={() => markFailed(item.id)}
                       className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
                       style={{
                         filter:
@@ -302,6 +308,7 @@ function PortfolioPage() {
                       src={item.thumb}
                       alt={item.title || "Custom Manufacturing Project"}
                       loading="lazy"
+                      onError={() => markFailed(item.id)}
                       className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                   </div>

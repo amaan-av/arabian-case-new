@@ -134,14 +134,17 @@ const productKeywords: Record<string, string[][]> = {
   "flight-cases/rack-cases": [["rack-case"], ["rackcase"]],
   "flight-cases/cable-trunks": [["cable-trunk"]],
   "flight-cases/audio-equipment-cases": [
-    ["speaker-case"],
-    ["speakercase"],
-    ["mixer-case"],
-    ["mixer-case-3"],
+    ["speaker-case-j"],
   ],
   "flight-cases/utility-covers": [
     ["utility-case"],
     ["utility-box"],
+    ["custom-covers"],
+  ],
+  "flight-cases/utility-flight-cases": [
+    ["utility-case"],
+    ["utility-box"],
+    ["utility-case-j"],
     ["custom-covers"],
   ],
   "flight-cases/tv-screen-cases": [["screen-case"]],
@@ -235,12 +238,17 @@ function getMatchingImages(
     return 0;
   });
 
-  if (key === "flight-cases/utility-covers") {
+  if (key === "flight-cases/utility-covers" || key === "flight-cases/utility-flight-cases") {
     const targetIdx = matches.findIndex((m) => m.id === "utility-case1");
     if (targetIdx > -1) {
       const [targetItem] = matches.splice(targetIdx, 1);
       matches.unshift(targetItem);
     }
+  }
+
+  // Audio equipment cases: only show the 10 numbered JPEG speaker cases (j2–j11)
+  if (key === "flight-cases/audio-equipment-cases") {
+    return matches.filter((m) => m.id !== "speaker-case-j1");
   }
 
   return matches;
